@@ -95,9 +95,26 @@ main{
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-
-@media only screen and (max-width: 900px) {
-main{
-    flex-direction: column-reverse;
+.Box1 p{
+    color: #fff;
 }
-  }
+
+.Box2 p{
+    color: #fff;
+}
+
+.Box2 .line {
+    position: absolute;
+    top: 30px;
+    left: -99px;
+    transform: rotate(180deg);
+}
+
+.Box1 .line{
+    position: absolute;
+    top: 218px;
+    left: 240px;
+    transform: rotate(90deg);
+
+}
+
